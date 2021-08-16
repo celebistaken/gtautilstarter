@@ -21,14 +21,14 @@ echo -------------------------------------------------------------------
 gtautil genpeddefs --input project --output build --reserve 0 --reserveprops 0 --fivem
 echo -------------------------------------------------------------------
 echo -------------------------------------------------------------------
-del "D:\ulyes\huemp-server\cfx-server-data-master\resources\clothes\*.*" /s
+del "insert your fivem stream directory" /s
 ECHO old stream files deleted
 
-xcopy /s/e D:\gtautil\build D:\ulyes\huemp-server\cfx-server-data-master\resources\clothes
+xcopy /s/e build-folder stream-folder
 echo -------------------------------------------------------------------
 @ECHO OFF
-start C:/Users/ulyes/AppData/Local/FiveM//FiveM.exe
-start D:/ulyes/huemp-server//FXServer.exe +set serverProfile "default"
+start C:/Users/user/AppData/Local/FiveM//FiveM.exe
+start D:/user/servername//FXServer.exe +set serverProfile "default"
 
 ECHO completed!
 PAUSE
